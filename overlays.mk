@@ -41,6 +41,13 @@ PRODUCT_PACKAGES += \
     ChocoXSystemOverlay \
     ChocoXSystemUIOverlay
 
+# Gesture no pill
+PRODUCT_PACKAGES += \
+    NavBarGesturalNoPillOverlay \
+    NavBarGesturalNarrowBackNoPillOverlay \
+    NavBarGesturalWideBackNoPillOverlay \
+    NavBarGesturalExtraWideBackNoPillOverlay
+
 # Fonts
 PRODUCT_PACKAGES += \
     FontRubikRubikOverlay \
