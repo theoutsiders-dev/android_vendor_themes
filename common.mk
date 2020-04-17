@@ -1,3 +1,6 @@
+# Files
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/etc,$(TARGET_COPY_OUT_PRODUCT)/etc)
+
 # Include package overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common

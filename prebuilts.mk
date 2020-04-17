@@ -5,4 +5,4 @@ PRODUCT_PACKAGES += \
     MatchmakerPrebuilt \
     CalendarGooglePrebuilt \
     CalculatorGooglePrebuilt \
-    OPScreenRecorder
+    OPScreenRecord
