@@ -7,7 +7,7 @@ ifneq ($(filter ysl land,$(du_device)),)
 scr_resolution := 720
 endif
 
-ifneq ($(filter lavender mido raphael wayne whyred platina gingko vince tulip X00T enchilada,$(du_device)),)
+ifneq ($(filter lavender mido raphael wayne whyred platina gingko vince tulip X00T enchilada beryllium,$(du_device)),)
 scr_resolution := 1080
 endif
 
